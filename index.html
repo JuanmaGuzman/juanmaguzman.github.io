@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Juan Martín Guzmán Salas</title>
   <meta name="description" content="Software engineer building AI agents. MSc student in Human-Centred AI at the University of Groningen, moving into AI safety and governance.">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
 <main>
 
   <header>
     <button class="photo" id="photo" type="button" title="Show another photo" aria-label="Show another photo">
-      <img id="photo-img" src="img/portrait-selfie.jpg" alt="Juan Martín Guzmán Salas" width="150" height="150">
+      <img id="photo-img" src="img/portrait-selfie.jpg?v=3" alt="Juan Martín Guzmán Salas" width="144" height="180">
     </button>
     <div class="intro">
       <h1>Juan Martín Guzmán Salas</h1>
@@ -109,11 +109,11 @@
 <script>
   // Random photo on each visit; it changes every 5 minutes, or on click.
   const photos = [
-    { src: "img/portrait-selfie.jpg", alt: "Juan Martín Guzmán Salas" },
-    { src: "img/triathlon-run.jpg", alt: "Running in a triathlon" },
-    { src: "img/triathlon-bike.jpg", alt: "Cycling on a mountain road" },
-    { src: "img/triathlon-swim.jpg", alt: "After an open-water swim" },
-    { src: "img/ironman-70-3-puerto-varas.jpg", alt: "At IRONMAN 70.3 Puerto Varas" }
+    { src: "img/portrait-selfie.jpg?v=3", alt: "Juan Martín Guzmán Salas" },
+    { src: "img/triathlon-run.jpg?v=3", alt: "Running in a triathlon" },
+    { src: "img/triathlon-bike.jpg?v=3", alt: "Cycling on a mountain road" },
+    { src: "img/triathlon-swim.jpg?v=3", alt: "After an open-water swim" },
+    { src: "img/ironman-70-3-puerto-varas.jpg?v=3", alt: "At IRONMAN 70.3 Puerto Varas" }
   ];
   const img = document.getElementById("photo-img");
   let i = Math.floor(Math.random() * photos.length);
