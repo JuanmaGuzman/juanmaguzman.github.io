@@ -22,3 +22,13 @@ Personal site: plain HTML + CSS, no build step.
 
 ## Update
 Edit, then `git add . && git commit -m "Update" && git push`.
+
+## Page structure (right column, top to bottom)
+1. **Currently**: one line; update when something changes, and update the "Last updated" footer too.
+2. **About**
+3. **Research focus**: one focus line plus two sub-questions.
+4. **Projects**: commented out in `index.html`; uncomment it when you have the first entry (template inside). Newest first; link paper / code / post.
+5. **Experience**, **Education**
+6. **Writing**: template in a comment; one sentence per piece; add `<span class="tag">Start here</span>` to the best piece once there are 2+.
+7. **Programmes & community**: one line each; roles (volunteer, mentee, facilitator) above courses.
+8. Footer: `Last updated: <Month YYYY>`.
