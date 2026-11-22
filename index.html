@@ -5,30 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Juan Martín Guzmán Salas</title>
   <meta name="description" content="Software engineer building AI agents. MSc student in Human-Centred AI at the University of Groningen, moving into AI safety and governance.">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
+<div class="layout">
+  <aside class="side">
+    <button class="photo" id="photo" type="button" title="Show another photo" aria-label="Show another photo">
+      <img id="photo-img" src="img/portrait-selfie.jpg?v=3" alt="Juan Martín Guzmán Salas" width="200" height="250">
+    </button>
+    <h1>Juan Martín Guzmán Salas</h1>
+    <p class="tagline">Software Engineer<br>MSc Computational Cognitive Science<br>University of Groningen, Netherlands</p>
+    <div class="contact">
+      <span class="email">j.m.guzman.salas@student.rug.nl</span>
+      <span class="email">jmguzman1@alumni.uc.cl</span>
+    </div>
+    <nav class="links">
+      <a href="https://www.linkedin.com/in/juanmartinguzman/">LinkedIn</a>
+      <a href="https://github.com/JuanmaGuzman">GitHub</a>
+      <a href="https://medium.com/@jmguzman1">Medium</a>
+      <a href="https://x.com/juanmartingzman">X</a>
+    </nav>
+    <nav class="links cv">
+      <a href="cv/Juan-Martin-Guzman-Salas_CV_EN.pdf">CV (EN)</a>
+      <a href="cv/Juan-Martin-Guzman-Salas_CV_ES.pdf">CV (ES)</a>
+    </nav>
+  </aside>
 <main>
 
-  <header>
-    <button class="photo" id="photo" type="button" title="Show another photo" aria-label="Show another photo">
-      <img id="photo-img" src="img/portrait-selfie.jpg?v=3" alt="Juan Martín Guzmán Salas" width="144" height="180">
-    </button>
-    <div class="intro">
-      <h1>Juan Martín Guzmán Salas</h1>
-      <p class="tagline">Software Engineer · MSc Computational Cognitive Science<br>University of Groningen, Netherlands</p>
-      <p class="email"><span>j.m.guzman.salas@student.rug.nl</span> <span class="dot">·</span> <span>jmguzman1@alumni.uc.cl</span></p>
-      <nav class="links">
-        <a href="https://www.linkedin.com/in/juanmartinguzman/">LinkedIn</a>
-        <a href="https://github.com/JuanmaGuzman">GitHub</a>
-        <a href="https://medium.com/@jmguzman1">Medium</a>
-        <a href="https://x.com/juanmartingzman">X</a>
-        <span class="sep">|</span>
-        <a href="cv/Juan-Martin-Guzman-Salas_CV_EN.pdf">CV (EN)</a>
-        <a href="cv/Juan-Martin-Guzman-Salas_CV_ES.pdf">CV (ES)</a>
-      </nav>
-    </div>
-  </header>
+
 
   <section>
     <h2>About</h2>
@@ -106,6 +110,7 @@
   </section>
 
 </main>
+</div>
 <script>
   // Random photo on each visit; it changes every 5 minutes, or on click.
   const photos = [
